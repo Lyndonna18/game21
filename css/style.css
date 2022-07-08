@@ -1,0 +1,198 @@
+html{
+    background-image: url("../media/263-2630559_basic-blackjack-strategy-blackjack-clipart-hd-png-download.png");
+    position: absolute; 
+    /* max-height: 100%; 
+    max-width: 100%;  */
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-color: rgb(2, 52, 22); */
+    background-size: cover;
+    height: 100%; 
+    width: 100%;
+}
+
+.startPage{
+
+}
+
+.gamePlay{
+   
+}
+
+button:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+#start{
+    width: 100px;
+    height: 100px;
+    border: 6px solid #020000;
+    border-radius: 5px;
+    background-color: #933a03c8;
+    font-size: 20px;
+    font-family: 'Games', sans-serif;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+#backToGame{
+    width: 100px;
+    height: 100px;
+    border: 6px solid #020000;
+    border-radius: 5px;
+    background-color: #933a03c8;
+    font-size: 20px;
+    font-family: 'Games', sans-serif;
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+
+#restart{
+    width: 100px;
+    height: 100px;
+    border: 6px solid #090000;
+    border-radius: 5px;
+    background-color: #933a03c8;
+    font-size: 16px;
+    font-family: 'Games', sans-serif;
+    position: absolute;
+    top: 15px;
+    left: 750px;
+}
+#rules{
+    width: 100px;
+    height: 100px;
+    border: 6px solid #090000;
+    border-radius: 5px;
+    background-color: #933a03c8;
+    font-size: 16px;
+    font-family: 'Games', sans-serif;
+    position: absolute;
+    top: 15px;
+    left: 860px;
+}
+
+#cpuScore{
+    font-size: 20px;
+    font-family: 'Games', sans-serif;
+    position: absolute;
+    left: 25px;
+    top: 120px;
+    white-space: nowrap;
+
+}
+#userScore{
+    font-size: 20px;
+    font-family: 'Games', sans-serif;
+    position: absolute;
+    left: 665px;
+    top: 120px;
+    white-space: nowrap;
+}
+
+
+#hit{
+    width: 90px;
+    height: 80px;
+    border: 6px solid #fcfcfc;
+    border-radius: 5px;
+    background-color: #933a03c8;
+    font-size: 20px;
+    font-family: 'Games', sans-serif;
+    position: absolute;
+    left: 385px;
+    top: 350px;
+   }
+
+.hidden{
+    display:none;
+}
+
+.show{
+    display:block;
+}
+
+#stay{
+    width: 90px;
+    height: 80px;
+    border: 6px solid #fcfcfc;
+    border-radius: 5px;
+    background-color: #933a03c8;
+    font-size: 20px;
+    font-family: 'Games', sans-serif;
+    position: absolute;
+    left: 385px;
+    top: 450px;
+    }
+
+#cpuHand{
+    font-size: 50px;
+    font-family: 'Games', sans-serif;
+    position: absolute;
+    top: 450px;
+    left: 10px;
+    white-space: nowrap;
+}    
+#userHand{
+    font-size: 50px;
+    font-family: 'Games', sans-serif;
+    position: absolute;
+    top: 450px;
+    left: 600px;
+    white-space: nowrap;
+}
+
+#firstCard{
+    width: 100px;
+    height: 140px;
+    position: relative;
+    top: 250px;
+    left: 10px;
+}
+
+#secondCard{
+    width: 100px;
+    height: 140px;
+    position: relative;
+    top: 250px;
+    left: 5px;
+}
+
+#thirdCard{
+    width: 100px;
+    height: 140px;
+    position: relative;
+    top: 110px;
+    left: 530px;
+}
+
+#fourthCard{
+    width: 100px;
+    height: 140px;
+    position: relative;
+    top: 110px;
+    left: 525px;
+}
+
+.cardSize{
+    width: 100px;
+    height: 140px;
+    position: relative;
+    top: 110px;
+    left: 525px;
+}
+
+#playerCardsSec{
+    float: left;
+}
+
+#links{
+    position: absolute;
+    top: 590px;
+    left: 335px;    
+    white-space: nowrap;
+}
+

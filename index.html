@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game 21</title>
+    <script src="./js/app.js" async defer></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="http://fonts.cdnfonts.com/css/games" rel="stylesheet">
+    <style>
+        @import url('http://fonts.cdnfonts.com/css/games');
+    </style>
+</head>
+
+<body>
+    <!-- <div class="startPage">
+        <h1>Welcome to GAME 21!</h1>
+
+    </div>
+
+    <div class="rulesPage">
+        <h1>How to Play: Get a score as close to 21 without going over. Press Hit to add more cards to your hand and Stay to get the computer's hand to flip over and compare points.
+        The closest to 21 points wins!</h1>
+        <button id="backToGame"> Go to Game</button>
+    
+    </div> -->
+    <div class="gamePlay">
+        <div>
+            <button id="start">Start Game</button>
+        </div>
+
+        <div>
+            <button id="restart" onClick="document.location.reload(true)">Restart Game</button>
+            <button id="rules"> Game Rules</button>
+        </div>
+
+        <div class="scoreboard">
+            <p id="cpuScore">CPU Score: </p>
+        </div>
+        <img class="cards" id="firstCard" src="" alt="">
+        <img class="cards" id="secondCard" src="" alt="">
+
+        <div>
+            <p id="cpuHand">CPU Hand</p>
+        </div>
+
+        <div class="buttonsSec">
+            <button id="hit" class="hidden">Hit</button>
+            <button id="stay">Stay</button>
+        </div>
+
+        <div class="scoreboard">
+            <p id="userScore">Your Score: </p>
+        </div>
+
+        <div id="playerCardsSec">
+            <img class="cards" id="thirdCard" src="" alt="">
+            <img class="cards" id="fourthCard" src="" alt="">
+        </div>
+
+
+        <div>
+            <p id="userHand">Your Hand</p>
+        </div>
+        <!-- <div id="links">
+            <a href="https://www.linkedin.com/in/lyndonnamunro/">Linkedin</a>
+            <a href="https://www.facebook.com/LyndonnaMunro/">Facebook</a>
+            <a href="https://discordapp.com/users/4282/">Discord</a>
+        </div> -->
+
+
+    </div>
+</body>
+
+</html>
